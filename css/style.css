@@ -193,6 +193,15 @@ color: #6B6B6B;
   .making__photo{
   	width: 45%;
   }
+  .grow__photo__img1{
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+  .grow__photo__img2{
+  	width: 100%;
+  }
+  
   .making__content{
   	/*padding-top: 100px;*/
   	width: 50%;
@@ -285,11 +294,69 @@ margin-bottom: 50px;
   	font-weight: 100;
   }
   .client__photo{
+  	position: relative;
   	width: 45%;
   	display: block;
   	border-radius: 20px;
-   background-color: #fff;
-  background-image: linear-gradient(to #ECEBFA
+  	border: 1px solid #ECEBFA;
+  
+  
+   background-image:linear-gradient(to right, #ECEBFA ,#FFFFFF);
+   padding: 40px;
+  }
+  .client__photo__oval1{
+  	position: absolute;
+  	display: block;
+  	background: #5956E9;
+  	width: 50px;
+  	height: 50px;
+  	border-radius: 50%;
+  	top: -9%;
+  	right: 10%;
+  }
+  .client__photo__oval2{
+  	position: absolute;
+  	display: block;
+  	background: #FFDC60;
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 50%;
+  	bottom: -9%;
+  	left: 10%;
+  }
+  .client__content__user{
+  	display: flex;
+  	align-items: center;
+  }
+  .client__content__user__img{
+  	  padding-bottom: 30px;
+  }
+  .client__content__user__name{
+  padding-left: 20px;
+  }
+  .client__content__user__name a{
+  	
+    font-style: normal;
+     font-weight: 800;
+    font-size: 16px;
+    color: #5956E9;
+  }
+  .client__content__user__name a:hover{
+  	color: red;
+  }
+  .client__photo__text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 1.5;
+   color: #6B6B6B;
+  }
 
-, red , #FFFFFF);
+  .logo{
+  	padding: 50px 0;
+  }
+  .logo>.container{
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
   }
