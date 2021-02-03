@@ -111,7 +111,7 @@ left:10%;
 	align-items: center;
 }
 .grow__photo{
-	width: 45px;
+	width: 45%;
 }
 .grow__content{
 	width: 45%;
@@ -201,7 +201,9 @@ color: #6B6B6B;
   .grow__photo__img2{
   	width: 100%;
   }
-  
+  .making:hover{
+  	opacity: 0.5;
+  }
   .making__content{
   	/*padding-top: 100px;*/
   	width: 50%;
@@ -303,6 +305,15 @@ margin-bottom: 50px;
   
    background-image:linear-gradient(to right, #ECEBFA ,#FFFFFF);
    padding: 40px;
+   z-index: -2;
+  }
+  .shadow1{
+  	position: 
+  	width: 43%;
+  	display: block;
+  	border-radius: 20px;
+  	border: 1px solid #ECEBFA;
+   z-index: -1;
   }
   .client__photo__oval1{
   	position: absolute;
@@ -394,7 +405,7 @@ margin-bottom: 50px;
    	height: 100%;
     background-image: url('../img/Group 1215.png');
    	background-size: cover;
-   	transform: translateX(46px);
+   	transform: translateX(49px);
    }
    .contant__box__form__link{
    	 
@@ -441,6 +452,15 @@ margin-bottom: 50px;
    border-radius: 10px;
    padding: 18px 20px;
    margin: 10px 0;
+   }
+   .box__form__btn{
+   	margin-top: 30px;
+   	   border:none;
+   	   padding: 15px 20px;
+       background: #5956E9;
+       border-radius: 10px;
+       color:#fff;
+       font-size: 16px;
    }
 
    .subtext{
@@ -490,6 +510,31 @@ margin-bottom: 50px;
   	padding: 15px 20px;
   	border-radius: 10px;
   }
+  .contant__box__contant{
+  	padding-top: 400px;
+  }
+  .contant__box__phone-number,.contant__box-location,.contant__box-email{
+  	display: flex;
+  	padding: 20px 0;
+  	color: #000;
+  
+  	
+  }
+   .contant__box__phone-number p{
+   margin-left: 15px;
+
+   }
+   .contant__box-location  a{
+     margin-left: 15px;
+     font-size: 12px;
+     color: #000;
+   }
+   .contant__box-email a{
+   	margin-left: 15px;
+   	color: #000;
+
+   }
+
   .footer{
   	padding: 20px 0;
   	border-top: 1px solid rgba(255, 255, 255, 0.1);
