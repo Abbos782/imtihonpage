@@ -360,3 +360,19 @@ margin-bottom: 50px;
   	justify-content: space-between;
   	align-items: center;
   }
+  .contact{
+  	padding: 70px 0;
+  }
+   .contact>.container{
+   	display: flex;
+   	justify-content: center;
+   }
+   .container__box{
+    width: 700px;
+   	height: 700px;
+   	background-image: url('../img/Group 1215.png');
+   	background-size: cover;
+   }
+   .container__box__form{
+   	width: 45%;
+   }
