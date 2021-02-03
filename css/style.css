@@ -178,6 +178,118 @@ color: #6B6B6B;
 }
 .box3{
 	background-color:  #FFF0F3;
-   
+   }
+  .making{
+  	padding: 70px 0;
+  	background-color: #5855EE;
+  	border-radius: 20px;
 
-}
+  } 
+  .making>.container{
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+  .making__photo{
+  	width: 45%;
+  }
+  .making__content{
+  	/*padding-top: 100px;*/
+  	width: 50%;
+  }
+  .making__title{
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 82px;
+
+color: #FFFFFF;
+margin-bottom: 50px;
+  }
+  .making__content__link{
+   
+	text-align: center;
+	background-color: #fff;
+	padding: 10px 30px;
+	border-radius: 7px;
+	color: #5855EE;
+  }
+  .making__img{
+  	width: 100%;
+  }
+  .map{
+  	padding: 70px 0;
+  }
+  .map__photo{
+  	margin: 0 auto;
+  	width: 80%;
+  	display: flex;
+  	justify-content: center;
+  }
+  .map__img{
+  	width: 100%;
+  }
+  .client{
+
+  }
+  .client>.container{
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+  .client__content{
+     width: 45%;
+  }
+
+  .client__content__link{
+  	font-size: 18px;
+  	font-weight: 600;
+
+
+  }
+  .client__content__link:hover{
+  	color: red;
+  }
+  .client__content__title{
+  	  font-family: Manrope;
+      font-style: normal;
+       font-weight: bold;
+      font-size: 60px;
+      line-height: 1.5;
+      color: #000000; 
+      padding-bottom: 30px;
+
+  }
+  .client__content__btn{
+  	border-radius: 50%;
+  	  width: 40px;
+  	  height: 40px;
+  	border: 2px solid #5956E9;
+     box-sizing: border-box;
+     margin:  0 15px;
+     background-color: #fff;
+
+  }
+  .client__content__btn:hover{
+  	background-color: #5956E9;
+  	color: #fff;
+  }
+  .client__content__btn:hover .client__content__span{
+  	color: #fff;
+  } 
+  .client__content__span{
+  	color: #5956E9;
+  	padding: 10px;
+  	font-size: 25px;
+  	font-weight: 100;
+  }
+  .client__photo{
+  	width: 45%;
+  	display: block;
+  	border-radius: 20px;
+   background-color: #fff;
+  background-image: linear-gradient(to #ECEBFA
+
+, red , #FFFFFF);
+  }
