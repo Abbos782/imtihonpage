@@ -44,8 +44,6 @@ body{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	
-
 }
 .navbar__search__span{
 	color: #fff;
@@ -246,9 +244,7 @@ margin-bottom: 50px;
   .map__img{
   	width: 100%;
   }
-  /* .client{
-
-  } */
+  
   .client>.container{
   	display: flex;
   	justify-content: space-between;
@@ -525,7 +521,7 @@ margin-bottom: 50px;
   
   	
   }
-   .contant__box__phone-number p{
+   .F__box__phone-number p{
    margin-left: 15px;
 
    }
