@@ -555,7 +555,8 @@ margin-bottom: 50px;
   .footer__icons{
 	  width: 40%;
   	display: flex;
-  	align-items: center;
+	  align-items: center;
+	  justify-content: space-between;
 
   }
   .footer__icons img{

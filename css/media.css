@@ -229,6 +229,9 @@
 		width: 90%;
 		margin: 0 auto;
 	}
+	.contact{
+		height: 1500px;
+	}
 	.designing__body__title{
 		margin: 0 auto;
 		text-align: center;
@@ -259,6 +262,7 @@
 		justify-content: space-between;
   
 	}
+	
 }
 @media(max-width: 400px){
 	.container{
@@ -281,5 +285,8 @@
 	}
 	.contant__box{
 		height: 870px;
+	}
+	.contact{
+		height: 1600px;
 	}
 }
