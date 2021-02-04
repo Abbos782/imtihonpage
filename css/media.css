@@ -87,11 +87,7 @@
 .contant__box__photo__img{
 	transform: translateX(40px);
 }
-.logo>.container{
-	width: 30%;
-	display: flex;
-	flex-wrap: wrap;
-}
+
 .designing__body__link{
 	font-size: 14px;
 }
@@ -99,9 +95,7 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.logo__photo img{
 
-}
 }
 @media(max-width:940px){
 	.container{
