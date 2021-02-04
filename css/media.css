@@ -1,16 +1,64 @@
-@media(max-width: 1240px){
+
+
+@media(max-width:1920px){
 	.container{
 		width: 1140px;
 		margin: 0 auto;
 	}
 }
-@media(max-width: 1140px){
+@media(max-width:1840px){
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+
+@media(max-width:1740px){
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+@media(max-width:1640px){
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+@media(max-width:1540px){
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+@media(max-width:1440px){
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+@media(max-width:1340px){
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+@media(max-width:1240px){
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+@media(max-width:1140px){
 	.container{
 		width: 1040px;
 		margin: 0 auto;
 	}
+	.grow__content__title{
+		font-size: 50px;
+	}
 }
-@media(max-width: 1040px){
+@media(max-width:1040px){
 	.container{
 		width: 940px;
 		margin: 0 auto;
@@ -47,8 +95,15 @@
 .designing__body__link{
 	font-size: 14px;
 }
+.logo__photor{
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-@media(max-width: 940px){
+.logo__photo img{
+
+}
+}
+@media(max-width:940px){
 	.container{
 		width: 840px;
 		margin: 0 auto;
@@ -59,13 +114,13 @@
 	.designing__body__link{
 	font-size: 10px;
 }
-}@media(max-width: 840px){
+}@media(max-width:840px){
 	.container{
 		width: 740px;
 		margin: 0 auto;
 	}
 }
-@media(max-width: 740px){
+@media(max-width:740px){
 	.container{
 		width: 640px;
 		margin: 0 auto;
@@ -76,8 +131,45 @@
 	.content__body__title{
 		width: 100%;
 	}
+	.box-section>.container{
+		display: block;
+		justify-content: column;
+	}
+	.box-section__box{
+	margin-top: 20px;
+		justify-content: center;
+		width: 100%;
+	}
+	.making>.container{
+		display: block;
+		justify-content: column;
+		
+	}
+	.making__photo{
+		width: 100%;
+		margin-bottom: 20px;
+
+	}
+	.making__content{
+	    text-align: center;
+		width: 100%;
+	}
+	.client>.container{
+		display: block;
+		justify-content:column;
+		align-items: center;
+	}
+	.client__content{
+		text-align: center;
+	   width: 100%;
+	}
+	.client__photo{
+		margin-top: 30px;
+	width: 100%;
+	text-align: center;
+	}
 }
-@media(max-width: 640px){
+@media(max-width:640px){
 	.container{
 		width: 540px;
 		margin: 0 auto;
